@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Layout, Typography } from "antd";
-import TaskForm from "./components/TaskForm";
-import TaskList from "./components/TaskList";
+import TaskForm from "./components/taskForm";
+import TaskList from "./components/taskList";
 import { getTasks, saveTasks } from "./utils/storage";
 import { v4 as uuidv4 } from "uuid";
 
